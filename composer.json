@@ -1,0 +1,13 @@
+{
+    "name": "cranch-crown/oreore-framework",
+    "description": "oreore-framework is a simple web framework",
+    "license": "Apache-2.0",
+    "require": {
+        "php": "^7.3",
+        "ext-intl": "^7.3",
+        "ext-mbstring": "^7.3"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
