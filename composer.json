@@ -7,7 +7,12 @@
         "ext-intl": "^7.3",
         "ext-mbstring": "^7.3"
     },
-    "autoload": {"files": ["src/functions.php"]},
+    "autoload": {
+        "files": ["src/functions.php"],
+        "psr-4": {
+            "OreOre\\": "src/"
+        }
+    },
     "config": {
         "sort-packages": true
     }
